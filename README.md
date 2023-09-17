@@ -1,1 +1,3 @@
-# herbarium-segmentation
+# Herbarium Segmentation
+
+(In progress)
