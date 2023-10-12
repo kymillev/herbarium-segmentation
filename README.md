@@ -8,10 +8,13 @@ Digitized Herbarium Specimens**
 ## Dataset 
 (TODO)
 
-Overview of the labeled instance segmentation dataset: 
+250 images, 30 for validation.
+
+Overview of the number of labeled object instances in the dataset and the percentage of images on which they occur.
 
 | **Class** | **Train (%)** | **Validation (%)** |
 |:------------------:|:-----------------------:|:----------------------------:|
+| **Plant**              | **282 (100)**      | **34 (100)**                        |
 | Note               | 551 (99.5)              | 83 (100)          |
 | Barcode            | 231 (95.9)              | 34 (96.7)                    |
 | Stamp              | 221 (80.5)              | 30 (80.0)                    |
@@ -19,6 +22,7 @@ Overview of the labeled instance segmentation dataset:
 | Color card         | 145 (59.5)              | 21 (60.0)                    |
 | Attachment         | 125 (56.8)              | 19 (63.3)                    |
 | Other              | 8 (1.4)      | 0 (0)                        |
+
 
 
 
