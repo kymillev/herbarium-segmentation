@@ -5,13 +5,6 @@ Digitized Herbarium Specimens**
 
 (Repo will be updated continuously)
 
-## Inference with pretrained models
-
-(TODO)
-
-## Training on custom data
-(TODO)
-
 ## Dataset 
 (TODO)
 
@@ -33,13 +26,28 @@ Overview of the labeled instance segmentation dataset:
 
 #### Binary Segmentation
 
+Inference and Training Code: [plant_binary_segmentation](notebooks/plant_binary_segmentation.ipynb)
+
+<p>
+<img src="img/binary_prediction.png" alt="Binary plant prediction">
+</p>
+
 | **Model** | **IoU** | **F1** | **Download** |
 |:------------------:|:----------------:|:---------------:|:---------------:|
 | UNet++             | 0.951            | 0.975           | [UNet++](https://cloud.ilabt.imec.be/index.php/s/RJwpz3qLGGo3X5N/download/unetplus_efficientnet-b0_best-epoch=189.ckpt) |
 | U-Net              | 0.950            | 0.974           | [U-Net](https://cloud.ilabt.imec.be/index.php/s/Sr2aZPzBqskbcky/download/unet_efficientnet-b0_best-epoch=196.ckpt) |
 | DeeplabV3+         | 0.915            | 0.954           | [DeeplabV3+](https://cloud.ilabt.imec.be/index.php/s/64J3k6mAs672LGM/download/deeplab_efficientnet-b0_best-epoch=199.ckpt) |
 
+
 #### Instance Segmentation
+
+YOLOv8 code: (TODO)
+
+Mask2Former code: (TODO)
+
+<p>
+<img src="img/instance_preds.png" height="300"  alt="Instance predictions">
+</p>
 
 | **Model**   | **Box AP** | **Box AP50** | **Mask AP** | **Mask AP50** | **Plant AP** | **Object AP** | **Download** |
 |:-----------:|:----------:|:------------:|:-----------:|:-------------:|:------------:|:-------------:|:------------:|
@@ -54,3 +62,20 @@ Overview of the labeled instance segmentation dataset:
 |:---------------:|:-----------:|:-------------:|:-------------:|:------------:|
 | YOLOv8 + UNet++ | 83.7        | 98.3          | 0.951         | [UNet++](https://cloud.ilabt.imec.be/index.php/s/RJwpz3qLGGo3X5N/download/unetplus_efficientnet-b0_best-epoch=189.ckpt) - [YOLOv8l-seg](https://cloud.ilabt.imec.be/index.php/s/6tRFZWejTofk9SN/download/yolo_objects_best.pt) (objects only)       |
 | Mask2Former     | 81.6        | 95.7          | 0.899         | [Mask2Former](https://cloud.ilabt.imec.be/index.php/s/3oiAJ5A52ZZDyiG/download/mask2former-pan-best-epoch=196.ckpt)         |
+
+## Labeling new data
+
+Semi-automatic labeling: [generate_plant_masks](notebooks/generate_plant_masks.ipynb)
+
+Interactive Manual validation with OpenCV via: [label_plant_masks.py](label_plant_masks.py)
+
+<p>
+<img src="img/plant_labeling.png" height="300"  alt="Semi-automatic labeling">
+</p>
+
+### Preparing custom dataset
+(TODO)
+1. Manually label objects with LabelMe or similar tool.
+2. Convert to COCO format
+3. Generate panoptic labels
+
