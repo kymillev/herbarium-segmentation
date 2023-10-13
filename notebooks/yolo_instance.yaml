@@ -1,0 +1,18 @@
+# See YOLOv8 documentation
+path: ../yolo_dataset  # dataset root dir
+train: train  # train images (relative to 'path') 
+val: val  # val images (relative to 'path') 
+test:  # test images (optional)
+
+# Classes 
+# YOLO class ids start from 0, add 1 after making the predictions
+# to match with our herbaria_categories
+names:
+  0: plant
+  1: ruler
+  2: note
+  3: barcode
+  4: stamp
+  5: attachment
+  6: color_card
+  7: other

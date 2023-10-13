@@ -1,0 +1,90 @@
+[
+    {
+        "supercategory": "plant",
+        "color": [
+            220,
+            20,
+            60
+        ],
+        "isthing": 0,
+        "id": 1,
+        "name": "plant"
+    },
+    {
+        "supercategory": "ruler",
+        "color": [
+            119,
+            11,
+            32
+        ],
+        "isthing": 1,
+        "id": 2,
+        "name": "ruler"
+    },
+    {
+        "supercategory": "note",
+        "color": [
+            0,
+            0,
+            142
+        ],
+        "isthing": 1,
+        "id": 3,
+        "name": "note"
+    },
+    {
+        "supercategory": "barcode",
+        "color": [
+            0,
+            0,
+            230
+        ],
+        "isthing": 1,
+        "id": 4,
+        "name": "barcode"
+    },
+    {
+        "supercategory": "stamp",
+        "color": [
+            106,
+            0,
+            228
+        ],
+        "isthing": 1,
+        "id": 5,
+        "name": "stamp"
+    },
+    {
+        "supercategory": "attachment",
+        "color": [
+            0,
+            60,
+            100
+        ],
+        "isthing": 1,
+        "id": 6,
+        "name": "attachment"
+    },
+    {
+        "supercategory": "color_card",
+        "color": [
+            0,
+            80,
+            100
+        ],
+        "isthing": 1,
+        "id": 7,
+        "name": "color_card"
+    },
+    {
+        "supercategory": "other",
+        "color": [
+            0,
+            0,
+            70
+        ],
+        "isthing": 1,
+        "id": 8,
+        "name": "other"
+    }
+]
