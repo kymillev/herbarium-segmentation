@@ -52,7 +52,8 @@ Mask2Former inference code:  [mask2former_segmentation](notebooks/mask2former_se
 |:---------------:|:-----------:|:-------------:|:-------------:|:------------:|
 | YOLOv8 + UNet++ | **83.7**        | **98.3**          | **0.951**         | [UNet++](https://cloud.ilabt.imec.be/index.php/s/RJwpz3qLGGo3X5N/download/unetplus_efficientnet-b0_best-epoch=189.ckpt) - [YOLOv8l-seg](https://cloud.ilabt.imec.be/index.php/s/6tRFZWejTofk9SN/download/yolo_objects_best.pt) (objects only)       |
 | Mask2Former     | 81.6        | 95.7          | 0.899         | [Mask2Former](https://cloud.ilabt.imec.be/index.php/s/3oiAJ5A52ZZDyiG/download/mask2former-pan-best-epoch=196.ckpt)         |
-*Mask APs for object classes only
+
+\**Mask APs for object classes only*
 ## Labeling new data
 
 Semi-automatic labeling: [generate_plant_masks](notebooks/generate_plant_masks.ipynb)
