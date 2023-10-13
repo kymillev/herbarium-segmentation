@@ -45,7 +45,7 @@ Inference and Training Code: [plant_binary_segmentation](notebooks/plant_binary_
 
 #### Instance Segmentation
 
-YOLOv8 code: (TODO)
+YOLOv8 inference and training code:  [plant_instance_YOLOv8](notebooks/plant_instance_YOLOv8.ipynb)
 
 Mask2Former code: (TODO)
 
