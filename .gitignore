@@ -162,8 +162,8 @@ cython_debug/
 # Custom
 
 # Datasets
-datasets/moved/
-datasets/plantclef/
+datasets/*
+!datasets/sample/
 
 # Models
 herbarium_segmentation/models/*
