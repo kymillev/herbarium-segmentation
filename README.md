@@ -6,25 +6,7 @@ Digitized Herbarium Specimens**
 (Repo will be updated continuously)
 
 ## Dataset 
-(TODO)
-
-250 images, 30 for validation.
-
-Overview of the number of labeled object instances in the dataset and the percentage of images on which they occur.
-
-| **Class** | **Train (%)** | **Validation (%)** |
-|:------------------:|:-----------------------:|:----------------------------:|
-| **Plant**              | **282 (100)**      | **34 (100)**                        |
-| Note               | 551 (99.5)              | 83 (100)          |
-| Barcode            | 231 (95.9)              | 34 (96.7)                    |
-| Stamp              | 221 (80.5)              | 30 (80.0)                    |
-| Ruler              | 216 (92.3)              | 29 (86.7)                    |
-| Color card         | 145 (59.5)              | 21 (60.0)                    |
-| Attachment         | 125 (56.8)              | 19 (63.3)                    |
-| Other              | 8 (1.4)      | 0 (0)                        |
-
-
-
+See: [Dataset](Dataset.md)
 
 ## Pretrained models
 
@@ -47,7 +29,7 @@ Inference and Training Code: [plant_binary_segmentation](notebooks/plant_binary_
 
 YOLOv8 inference and training code:  [plant_instance_YOLOv8](notebooks/plant_instance_YOLOv8.ipynb)
 
-Mask2Former code: (TODO)
+Mask2Former inference code:  [mask2former_segmentation](notebooks/mask2former_segmentation.ipynb)
 
 <p>
 <img src="img/instance_preds.png" height="300"  alt="Instance predictions">
@@ -61,6 +43,8 @@ Mask2Former code: (TODO)
 | Mask2Former | 80.7       | 93.2         | 78.9        | 91.0          | 77.0         | 79.2          | [Mask2Former](https://cloud.ilabt.imec.be/index.php/s/3N59LiykEYXJn9t/download/mask2former-ins-best-epoch=195.ckpt)         |
 
 #### Panoptic Segmentation
+
+Mask2Former inference code:  [mask2former_segmentation](notebooks/mask2former_segmentation.ipynb)
 
 | **Model**       | **Mask AP** | **Mask AP50** | **Plant IoU** | **Download** |
 |:---------------:|:-----------:|:-------------:|:-------------:|:------------:|
