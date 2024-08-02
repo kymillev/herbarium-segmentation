@@ -1,9 +1,7 @@
 # Herbarium Segmentation
 
-This repository contains the code and links to the dataset and retrained models from the following publication: **Evaluating Segmentation Approaches on
-Digitized Herbarium Specimens**
-
-(Repo will be updated continuously)
+This repository contains the code and links to the dataset and retrained models from the following publication: **[Evaluating Segmentation Approaches on
+Digitized Herbarium Specimens](https://link.springer.com/chapter/10.1007/978-3-031-47966-3_6)**
 
 ## Dataset 
 See: [Dataset](Dataset.md)
@@ -65,8 +63,25 @@ Interactive Manual validation with OpenCV via: [label_plant_masks.py](label_plan
 </p>
 
 ### Preparing custom dataset
-(TODO)
 1. Manually label objects with LabelMe or similar tool.
 2. Convert to COCO format
 3. Generate panoptic labels
+
+### Citation
+
+If you use this dataset or code in your research, please use the following BibTeX entry:
+
+```bibtex
+@inproceedings{milleville2023evaluating,
+  title={Evaluating Segmentation Approaches on Digitized Herbarium Specimens},
+  author={Milleville, Kenzo and Chandrasekar, Krishna Kumar Thirukokaranam and Van de Weghe, Nico and Verstockt, Steven},
+  booktitle="Advances in Visual Computing",
+  year="2023",
+  publisher="Springer Nature Switzerland",
+  address="Cham",
+  pages="65--78",
+  isbn="978-3-031-47966-3"
+}
+
+```
 
